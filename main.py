@@ -5,6 +5,8 @@ import logging
 import os
 from pymongo import MongoClient
 
+print("Starting ISS location script")
+
 """
     This script is used to get the current location of the ISS from the Open Notify API 
       and write it to a MongoDB database.
